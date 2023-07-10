@@ -1,1 +1,2 @@
-# designing using system verilog
+# half adder
+
