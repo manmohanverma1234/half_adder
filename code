@@ -1,0 +1,13 @@
+module ha(input logic a,b,rst, output logic carry, sum
+    );
+    
+    logic w0,w1;
+    
+    
+    xor (w0,a,b);
+    and (w1,a,b);
+    
+    and (sum,w0,rst);
+    and (carry,w1,rst);
+    
+endmodule
